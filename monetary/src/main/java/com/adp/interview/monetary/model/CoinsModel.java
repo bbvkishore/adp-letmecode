@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
 
 @Data
@@ -13,7 +15,7 @@ import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
 @NoArgsConstructor
 @ToString
 @JsonInclude(NON_NULL)
-public class CoinsModel {
+public class CoinsModel implements Serializable {
     private Integer quarters;
     private Integer dimes;
     private Integer nickels;

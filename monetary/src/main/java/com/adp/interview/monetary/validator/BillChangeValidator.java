@@ -1,7 +1,5 @@
 package com.adp.interview.monetary.validator;
 
-import com.adp.interview.monetary.domain.Coins;
-import com.adp.interview.monetary.model.BillChangeRequest;
 import com.adp.interview.monetary.type.BillsType;
 import org.springframework.stereotype.Component;
 
